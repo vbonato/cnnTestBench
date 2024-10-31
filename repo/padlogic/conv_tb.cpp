@@ -18,6 +18,11 @@ int main(void) {
 
 	conv(I, W, OL1);
 	//conv(OL1, W, OL2);
+	for(int i=0; i< M * E * E; i++)
+	{
+		printf("%x ",OL1[i]);
+	}
+	
 
 	FILE *opf = fopen("output.bin", "wb");
 	fwrite(OL1, sizeof(type_t), M * E * E, opf);
