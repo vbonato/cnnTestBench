@@ -9,4 +9,4 @@ conv5.o: conv5.cpp conv5.h
 
 .PHONY: clean
 clean:
-	rm -rf conv5.o conv_tb5.o conv5 output1.bin output2.bin output3.bin output4.bin output5.bin
+	rm -rf 	conv5.o conv_tb5.o conv5 output1.bin output2.bin output3.bin output4.bin output5.bin
